@@ -9,15 +9,13 @@
 //$var = ' ';     // false
 //$var = null;    // true
 //$var = "null";  // false
-//AUSKOMMENTIERT  // true
-
+//COMMENT         // true
 if(empty($var))
 {
-echo "wahr";
+echo "true";
 }
 else
 {
-echo "falsch";
+echo "false";
 }
 ?>
-
